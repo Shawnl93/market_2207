@@ -7,6 +7,6 @@ describe Vendor do
   end
 
   it "exists" do
-    expect(@vendo).to be_instance_of(Vendor)
+    expect(@vendor).to be_instance_of(Vendor)
   end
 end
