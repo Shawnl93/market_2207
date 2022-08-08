@@ -31,6 +31,10 @@ class Market
   end
 
   def total_inventory
-
+    @vendors.each do |vendor|
+      vendor.inventory.each do |key, value|
+        require "pry"; binding.pry
+      end
+    end
   end
 end
