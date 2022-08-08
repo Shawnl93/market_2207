@@ -8,7 +8,7 @@ class Vendor
   end
 
   def check_stock(item)
-    @inventory.values.first
+    @inventory[item]
   end
 
   def stock(item, quantity)
