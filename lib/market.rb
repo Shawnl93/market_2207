@@ -29,4 +29,8 @@ class Market
     end
     stocked_vendor
   end
+
+  def total_inventory
+
+  end
 end
